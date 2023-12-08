@@ -1,0 +1,63 @@
+/* Reset and basic styling */
+body {
+    background-color: #fff;
+    color: #212529;
+    font: 400 1rem/1.5 'Montserrat', sans-serif;
+    margin: 0;
+    text-align: left;
+}
+
+/* Container styling */
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header styling */
+header {
+    background-color: #477bff;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+/* Section styling */
+.section {
+    padding: 0.5rem 2rem 1rem 2rem;
+}
+
+.section:hover {
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+/* Heading 1 styling */
+h1 {
+    font-size: 48px;
+}
+
+/* Button and input styling */
+button,
+input[type="submit"],
+input[type="text"] {
+    background-color: #d9edff;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font: 400 0.95rem/1.5 sans-serif;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    vertical-align: middle;
+}
+
+/* Text input styling */
+input[type="text"] {
+    line-height: 1.8;
+    width: 25%;
+}
+
+input[type="text"]:hover {
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}

@@ -1,0 +1,24 @@
+.Error404{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: slideY 1.5s;
+}
+
+.Error404 img{
+    max-width: 1000px;
+    margin: -210px;
+}
+
+.Error404 a{
+    color: #222d35;
+    background-color: aliceblue;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}

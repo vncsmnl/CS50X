@@ -2,77 +2,76 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Me dar seu c#zinho?</title>
-  <link rel="icon"
-    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>👅</text></svg>">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello Baby</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>👅</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div id="element">
+    <div id="element">
 
-    <div>
-      <h3>Cuzinho Hoje? 🤭</h3>
+        <div>
+            <h3>Netflix and Chill? 🤭</h3>
 
-      <button class="button" id="btn-yes" onclick="openYoutube()">
-        Sim
-      </button>
+            <button class="button" id="btn-yes" onclick="openYoutube()">
+                Sim
+            </button>
 
-      <button class="button" id="btn-no">
-        Não
-      </button>
+            <button class="button" id="btn-no">
+                Não
+            </button>
+        </div>
+
     </div>
 
-  </div>
-
-  <script src="./script.js"></script>
+    <script src="./script.js"></script>
 
 </body>
-
-<footer>
-  <img align="right" src="./assets/signature.gif" alt="signature" width="200">
-  <img align="left" src="./assets/rate1.png" alt="like" width="80">
-</footer>
-
 <script>
-/**
- * The code randomly positions a button on the screen when clicked and opens a YouTube video when
- * another function is called.
- */
- const element = document.getElementById("btn-no");
-element.addEventListener("click", () => {
-    const x = Math.floor(Math.random() * window.innerWidth);
-    const y = Math.floor(Math.random() * window.innerHeight);
-    element.style.position = "absolute";
-    element.style.left = x + "px";
-    element.style.top = y + "px";
-});
+    /**
+     * The code randomly positions a button on the screen when clicked and opens a YouTube video when
+     * another function is called.
+     */
+    const element = document.getElementById("btn-no");
+    element.addEventListener("click", () => {
+        const x = Math.floor(Math.random() * window.innerWidth);
+        const y = Math.floor(Math.random() * window.innerHeight);
+        element.style.position = "absolute";
+        element.style.left = x + "px";
+        element.style.top = y + "px";
+    });
 
-function openYoutube() {
-    window.open("https://www.youtube.com/shorts/RKvUys0hbko");
-}
+    function openYoutube() {
+        window.open("https://www.youtube.com/shorts/RKvUys0hbko");
+    }
 
-/* This JavaScript code is adding event listeners to the window object for the 'blur' and 'focus'
-events. */
-let docTitle = document.title
+    /* This JavaScript code is adding event listeners to the window object for the 'blur' and 'focus'
+    events. */
+    let docTitle = document.title
 
-window.addEventListener('blur', () => {
-    document.title = 'Eeeeeeii.... volta aqui!'
-})
+    window.addEventListener('blur', () => {
+        document.title = 'Eeeeeeii.... volta aqui!'
+    })
 
-window.addEventListener('focus', () => {
-    document.title = docTitle
-})
+    window.addEventListener('focus', () => {
+        document.title = docTitle
+    })
 </script>
 
 </html>

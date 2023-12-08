@@ -1,9 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
 body {
     background: #d9fffe;
     background: -moz-linear-gradient(to right, #d9fffe 0%, #fffeff 100%);
     background: -webkit-linear-gradient(to right, #d9fffe 0%, #fffeff 100%);
     background: linear-gradient(to right, #d9fffe 0%, #fffeff 100%);
-    font-family: 'Fredoka', sans-serif;
 }
 
 h3 {
@@ -81,10 +87,4 @@ div {
 .button:active::after {
     transition: 0s;
     transform: translate(0, 5%);
-}
-
-footer {
-    position: absolute;
-    top: 0;
-    width: 99%;
 }

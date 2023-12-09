@@ -49,7 +49,7 @@ Pointers. Segmentation Faults. Dynamic Memory Allocation. Stack. Heap. Buffer Ov
 - [Recover](./week_4/recover/)
 - [Smiley](./week_4/smiley/)
 
-## eek 5 - Data Structures 🧱
+## Week 5 - Data Structures 🧱
 
 Abstract Data Types. Queues, Stacks. Linked Lists. Trees, Binary Search Trees. Hash Tables. Tries.
 
